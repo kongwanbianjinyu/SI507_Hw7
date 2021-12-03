@@ -11,11 +11,11 @@ api_key = ""
 ```
 ## Output
 1.If the user goes to the default homepage (http://127.0.0.1:5000/), your output should be "Welcome".
-2.If the user goes to the (http://127.0.0.1:5000/name/{ Your Name}), your output should be "Hello, {Your Name}!".
-3.If the user goes to the (http://127.0.0.1:5000/headlines/{ Your Name}), your output should be NYT headlines of “Technology” category.
+2.If the user goes to the (http://127.0.0.1:5000/name/{Your_Name}), your output should be "Hello, {Your Name}!".
+3.If the user goes to the (http://127.0.0.1:5000/headlines/{Your_Name}), your output should be NYT headlines of “Technology” category.
 
 ## Extra Credit
-1.If the user goes to the (http://127.0.0.1:5000/links/{ Your Name}), your output should be NYT headlines of “Technology” category with link.
-2.If the user goes to the (http://127.0.0.1:5000/images/{ Your Name}), your output should get a table of “Technology” category stories. The first column are ids, the second column are headlines and the last column are images thumbnails.
+1.If the user goes to the (http://127.0.0.1:5000/links/{Your_Name}), your output should be NYT headlines of “Technology” category with link.
+2.If the user goes to the (http://127.0.0.1:5000/images/{Your_Name}), your output should get a table of “Technology” category stories. The first column are ids, the second column are headlines and the last column are images thumbnails.
 
 
