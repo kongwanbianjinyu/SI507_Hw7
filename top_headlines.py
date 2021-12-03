@@ -10,8 +10,12 @@ app = Flask(__name__)
 def hello_world():
     return render_template('index.html')
 
+@app.route('/name/<nm>')
+def hell_name(nm):
+    return render_template('Hello.html',name = nm)
 
-@app.route('/<nm>')
+
+@app.route('/headlines/<nm>')
 def show_name(nm):
     requestUrl = "https://api.nytimes.com/svc/topstories/v2/technology.json?api-key={}".format(secrets.api_key)
     requestHeaders = {
