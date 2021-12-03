@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hello, {{name}}!</h1>
+    <h3>Today's technology headlines are...</h3>
+    {% for index,result in result_list %}
+    <h3>{{ index + 1 }}.{{ result }}</h3>
+    {% endfor %}
+</body>
+</html>
